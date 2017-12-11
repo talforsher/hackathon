@@ -1,4 +1,4 @@
-
+{
 var info = [
 
 	pg = ["p&g","23/10/2017","pic.jpg","//www.pgisrael.co.il"],
@@ -12,3 +12,4 @@ var info = [
 	mta = ["tel aviv yaffo academic college","01/02/2018","//www.mta.ac.il/_layouts/15/SolBox.MTA.UI/Images/logo.png", "//mta.ac.il"]
 
 ];
+}
