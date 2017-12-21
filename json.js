@@ -9,7 +9,7 @@ var info = [
 
 	mta = ["tel aviv yaffo academic college","01/02/2018","//www.mta.ac.il/_layouts/15/SolBox.MTA.UI/Images/logo.png", "//mta.ac.il"],
 	
-	idf = ["israel defense force" , "21/03/2018" , "https://www.idf.il/media/23378/banner3.jpg" , "//goo.gl/dgHbQ9"],
+	idf = ["israel defense force" , "21/03/2018" , "banner3.jpg" , "//goo.gl/dgHbQ9"],
 	
 	iem = ["shenkar" , "28/03/2018", "https://static.wixstatic.com/media/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.jpg/v1/fill/w_255,h_56,al_c,q_80,usm_0.66_1.00_0.01/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.webp" , "//hackathoniem.co.il"],
 
