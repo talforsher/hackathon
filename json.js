@@ -13,6 +13,8 @@ var info = [
 	
 	iem = ["shenkar" , "28/03/2018", "https://static.wixstatic.com/media/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.jpg/v1/fill/w_255,h_56,al_c,q_80,usm_0.66_1.00_0.01/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.webp" , "//hackathoniem.co.il"],
 
-	shatil = ["shatil" , "28/12/2018" , "https://www.shatil.org.il/sites/default/files/styles/original/public/hakatonsmall.jpg" , "//shatil.org.il/node/171758"]
+	shatil = ["shatil" , "28/12/2018" , "https://www.shatil.org.il/sites/default/files/styles/original/public/hakatonsmall.jpg" , "//shatil.org.il/node/171758"],
+
+	altman = ["altman" , "18/01/2018" , "https://www.altman.co.il/hackathon/dist/images/logo.png", "//altman.co.il/hackathon/?utm_source=ML&utm_medium=directlink&utm_campaign=hackathon"]
 ];
 }
