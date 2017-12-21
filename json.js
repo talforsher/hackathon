@@ -7,7 +7,8 @@ var info = [
 
 	data = ["datathon","28/12/2017","//www.panim.org.il/sites/default/files/logo_%20aguda5.jpg","//www.panim.org.il"],
 
-	mta = ["tel aviv yaffo academic college","01/02/2018","//www.mta.ac.il/_layouts/15/SolBox.MTA.UI/Images/logo.png", "//mta.ac.il"]
-
+	mta = ["tel aviv yaffo academic college","01/02/2018","//www.mta.ac.il/_layouts/15/SolBox.MTA.UI/Images/logo.png", "//mta.ac.il"],
+	
+	idf = ["israel defense force" , "21/03/2018" , "https://www.idf.il/media/23410/%D7%A7%D7%95%D7%9C-%D7%A7%D7%95%D7%A8%D7%90-%D7%9C%D7%94%D7%92%D7%A9%D7%94.jpg?width=802&height=1795" , "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.idf.il%2F%25D7%2590%25D7%25AA%25D7%25A8%25D7%2599%25D7%259D%2F%25D7%2594%25D7%2590%25D7%25A7%25D7%25AA%25D7%2595%25D7%259F-%25D7%25A4%25D7%2595%25D7%25A8%25D7%25A6%25D7%2599%25D7%259D-%25D7%2592%25D7%2591%25D7%2595%25D7%259C%25D7%2595%25D7%25AA%2F&h=ATOzBc255r3iI3469ikaTjtdQ9MNbplNQOSU62WKrHL0cq1-H48FYcqyoClZc7KY-LE2MogJh3qXuu6jArTIX5oWz8g24Yjhxjr3pEascKGAdtGStkDdEiSJ2QPzHmenDeoI0YOT7BbQBt1VCHceg1NfMr7l9j7cElD9j0NkSBIXxCXBu6CJryn8JUOp4FK1WM37wYFYLiKVdRqRZ_DDw6Fk8eKsx0QfrwZc5wWWP_1mX97NJVWO0q1XRqx3XED59H8TmaNbI80hrA-qFfpG4Je6HHfF0JLB0tPn--zCEbA"]
 ];
 }
