@@ -6,15 +6,14 @@ var info = [
 	medi = ["medithon","21/12/2017","//static.wixstatic.com/media/e7205b_4fed61c607ba4f08a128b6a22022548b~mv2.png/v1/fill/w_240,h_106,al_c,usm_0.66_1.00_0.01/e7205b_4fed61c607ba4f08a128b6a22022548b~mv2.png", "//medint.io/medithon"],
 
 	data = ["datathon","28/12/2017","//www.panim.org.il/sites/default/files/logo_%20aguda5.jpg","//www.panim.org.il"],
+	
+	shatil = ["shatil" , "28/12/2017" , "https://www.shatil.org.il/sites/default/files/styles/original/public/hakatonsmall.jpg" , "//shatil.org.il/node/171758"],
 
-	mta = ["tel aviv yaffo academic college","01/02/2018","//www.mta.ac.il/_layouts/15/SolBox.MTA.UI/Images/logo.png", "//mta.ac.il"],
+	altman = ["altman" , "18/01/2018" , "https://www.altman.co.il/hackathon/dist/images/logo.png", "//altman.co.il/hackathon/?utm_source=ML&utm_medium=directlink&utm_campaign=hackathon"],
 	
 	idf = ["israel defense force" , "21/03/2018" , "banner3.jpg" , "//goo.gl/dgHbQ9"],
 	
-	iem = ["shenkar" , "28/03/2018", "https://static.wixstatic.com/media/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.jpg/v1/fill/w_255,h_56,al_c,q_80,usm_0.66_1.00_0.01/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.webp" , "//hackathoniem.co.il"],
+	iem = ["shenkar" , "28/03/2018", "https://static.wixstatic.com/media/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.jpg/v1/fill/w_255,h_56,al_c,q_80,usm_0.66_1.00_0.01/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.webp" , "//hackathoniem.co.il"]
 
-	shatil = ["shatil" , "28/12/2018" , "https://www.shatil.org.il/sites/default/files/styles/original/public/hakatonsmall.jpg" , "//shatil.org.il/node/171758"],
-
-	altman = ["altman" , "18/01/2018" , "https://www.altman.co.il/hackathon/dist/images/logo.png", "//altman.co.il/hackathon/?utm_source=ML&utm_medium=directlink&utm_campaign=hackathon"]
 ];
 }
