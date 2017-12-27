@@ -13,7 +13,7 @@ var info = [
 	
 	idf = ["israel defense force" , "21/03/2018" , "banner3.jpg" , "//goo.gl/dgHbQ9"],
 	
-	iem = ["shenkar" , "28/03/2018", "https://static.wixstatic.com/media/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.jpg/v1/fill/w_255,h_56,al_c,q_80,usm_0.66_1.00_0.01/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.webp" , "//hackathoniem.co.il"]
+	iem = ["shenkar" , "28/03/2018", "http://www.toaar.com/Files/2014-11/201411271819012315836511.jpg/v1/fill/w_255,h_56,al_c,q_80,usm_0.66_1.00_0.01/6ac214_21d36eb6fe9d4284aac83de149c72b7f~mv2.webp" , "//hackathoniem.co.il"]
 
 ];
 }
