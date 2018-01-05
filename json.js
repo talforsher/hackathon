@@ -11,6 +11,8 @@ var info = [
 
 	altman = ["altman" , "18/01/2018" , "https://www.altman.co.il/hackathon/dist/images/logo.png", "//altman.co.il/hackathon/?utm_source=ML&utm_medium=directlink&utm_campaign=hackathon"],
 	
+	heschel = ["heschel" , "07/02/2018" , "http://synduimages.synduweb.netdna-cdn.com/uploads/55a4e70ad73ab/voice_inline/97839a90-2777-03ab-2832-680d1e2d2601/5a3a9d60b90e4.jpg" , "//http://www.heschel.org.il/heschel-media-story-254624?utm_source=facebook"],
+	
 	idf = ["israel defense force" , "21/03/2018" , "banner3.jpg" , "//goo.gl/dgHbQ9"],
 	
 	iem = ["shenkar" , "28/03/2018", "http://www.toaar.com/Files/2014-11/201411271819012315836511.jpg" , "//hackathoniem.co.il"]
