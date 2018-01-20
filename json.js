@@ -15,7 +15,9 @@ var info = [
 	
 	idf = ["israel defense force" , "21/03/2018" , "banner3.jpg" , "//goo.gl/dgHbQ9"],
 	
-	iem = ["shenkar" , "28/03/2018", "http://www.toaar.com/Files/2014-11/201411271819012315836511.jpg" , "//hackathoniem.co.il"]
+	iem = ["shenkar" , "28/03/2018", "http://www.toaar.com/Files/2014-11/201411271819012315836511.jpg" , "//hackathoniem.co.il"],
+	
+	guester = ["guester" , "11/11/2018", "gg.png" , "//guester.co.il"]
 
 ];
 }
