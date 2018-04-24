@@ -17,7 +17,9 @@ var info = [
 	
 	iem = ["shenkar" , "28/03/2018", "http://www.toaar.com/Files/2014-11/201411271819012315836511.jpg" , "//hackathoniem.co.il"],
 	
-	guester = ["guester" , "11/11/2018", "gg.png" , "//guester.co.il"]
+	guester = ["guester" , "11/11/2018", "gg.png" , "//guester.co.il"],
+	
+	Spark = ["Spark" , "10/05/2018", "https://static.wixstatic.com/media/e0401f_cbfa89cab25f4d56b416de1a63d4714b~mv2.png/v1/fill/w_120,h_154,al_c,usm_0.66_1.00_0.01/e0401f_cbfa89cab25f4d56b416de1a63d4714b~mv2.png" , "//www.tlvstarters.com/spark"]
 
 ];
 }
