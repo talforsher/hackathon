@@ -4,7 +4,11 @@
     <title>Webz.io Hackathon 2022</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="https://webz.io/img/webzio_favicon_16x16.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://webz.io/img/webzio_favicon_16x16.png"
+    />
     <meta name="description" content="Webz.io Hackathon 2022" />
     <meta name="keywords" content="Webz.io Hackathon 2022" />
     <meta property="og:title" content="Webz.io Hackathon 2022" />
@@ -14,14 +18,24 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Webz.io Hackathon 2022" />
     <style>
+      @keyframes animatedBackground {
+        0% {
+          transform: translateY(60%);
+        }
+        100% {
+          transform: translateY(-70%);
+        }
+      }
       html {
         box-sizing: border-box;
         height: 100%;
       }
       body {
+        overflow: hidden;
+        animation: animatedBackground 8s linear infinite;
         font-family: "Roboto", sans-serif;
         font-size: 16px;
-        background-color: #f5f5f5;
+        background-color: #000;
         background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
         min-height: 100%;
         background-position: center;
