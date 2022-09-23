@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Webz.io Hackathon 2022</title>
+    <title>Hackathon.co.il</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
+    <!-- <link
       rel="icon"
       type="image/png"
       href="https://webz.io/img/webzio_favicon_16x16.png"
-    />
+    /> -->
     <meta name="description" content="Webz.io Hackathon 2022" />
     <meta name="keywords" content="Webz.io Hackathon 2022" />
     <meta property="og:title" content="Webz.io Hackathon 2022" />
@@ -32,11 +32,11 @@
       }
       body {
         overflow: hidden;
-        animation: animatedBackground 8s linear infinite;
+        /* animation: animatedBackground 8s linear infinite; */
         font-family: "Roboto", sans-serif;
         font-size: 16px;
-        background-color: #000;
-        background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+        /* background-color: #000; */
+        /* background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); */
         min-height: 100%;
         background-position: center;
         background-size: cover;
@@ -47,24 +47,41 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 100%;
+        width: 60%;
+        padding: 10%;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
         text-align: center;
         font-size: 2rem;
         font-weight: bold;
-        color: #fff;
-        text-shadow: 0 0 10px #000;
+        color: #219ebc;
+        /* text-shadow: 0 0 10px #000; */
       }
       h1 {
         font-size: 2rem;
         font-weight: bold;
-        color: #fff;
-        text-shadow: 0 0 10px #000;
+        /* color: #fff; */
+        /* text-shadow: 0 0 10px #000; */
       }
       h2 {
         font-size: 1.5rem;
         font-weight: bold;
+        /* color: #fff; */
+        /* text-shadow: 0 0 10px #000; */
+      }
+      button {
+        border-radius: 50px;
+        background: repeat padding-box border-box 0% 0% / auto auto scroll
+          linear-gradient(141deg, #05b1d6 0%, #16697d 100%);
+        width: 193px;
+        height: 49px;
+        border: none;
         color: #fff;
-        text-shadow: 0 0 10px #000;
+        letter-spacing: 0.025em;
+        font-size: 20px;
+        font-family: tahoma, tahoma-w01-regular, tahoma-w02-regular,
+          tahoma-w10-regular, tahoma-w15--regular, tahoma-w99-regular,
+          sans-serif;
       }
     </style>
     <link
@@ -73,9 +90,13 @@
     />
   </head>
   <body>
-    <div class="coming-soon">
-      <h1>Coming Soon</h1>
-      <h2>Webz.io's Hackathon</h2>
-    </div>
+    <a href="https://www.innovationkic.co.il/">
+      <div class="coming-soon">
+        <img src="kineret.webp" />
+        <h1>WATERTHON</h1>
+        <h2>האקתון לאתגרי תעשיית המים</h2>
+        <button>מידע והרשמה</button>
+      </div>
+    </a>
   </body>
 </html>
