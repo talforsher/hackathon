@@ -1,99 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hackathon.co.il</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- <link
-      rel="icon"
-      type="image/png"
-      href="https://webz.io/img/webzio_favicon_16x16.png"
-    /> -->
-    <meta name="description" content="Webz.io Hackathon 2022" />
-    <meta name="keywords" content="Webz.io Hackathon 2022" />
-    <meta property="og:title" content="Webz.io Hackathon 2022" />
-    <meta property="og:description" content="Webz.io Hackathon 2022" />
-    <meta property="og:image" content="https://webz.io/img/white-logo.png" />
-    <meta property="og:url" content="https://webz.io/hackathon/index.html" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Webz.io Hackathon 2022" />
-    <style>
-      @keyframes animatedBackground {
-        0% {
-          transform: translateY(60%);
-        }
-        100% {
-          transform: translateY(-70%);
-        }
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hackathon Website</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+  <script>
+    class HackathonSite extends React.Component {
+      render() {
+        return (
+          <div>
+            <h1>Welcome to the Hackathon!</h1>
+            <p>
+              Get ready to code and create some amazing projects with your team.
+            </p>
+            <img
+              src="https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif"
+              alt="Team coding at a hackathon"
+            />
+            <h2>Event Details</h2>
+            <ul>
+              <li>Date: January 1-2, 2022</li>
+              <li>Location: Online</li>
+              <li>Prizes: $500 for first place, $250 for second place</li>
+            </ul>
+            <h2>Schedule</h2>
+            <table>
+              <tr>
+                <th>Time</th>
+                <th>Activity</th>
+              </tr>
+              <tr>
+                <td>9:00am</td>
+                <td>Kickoff and team formation</td>
+              </tr>
+              <tr>
+                <td>12:00pm</td>
+                <td>Lunch break</td>
+              </tr>
+              <tr>
+                <td>6:00pm</td>
+                <td>Dinner break</td>
+              </tr>
+              <tr>
+                <td>11:59pm</td>
+                <td>Submission deadline</td>
+              </tr>
+            </table>
+            <h2>Contact</h2>
+            <p>
+              If you have any questions, please email us at{' '}
+              <a href="mailto:hackathon@example.com">hackathon@example.com</a>.
+            </p>
+          </div>
+        );
       }
-      html {
-        box-sizing: border-box;
-        height: 100%;
-      }
-      body {
-        overflow: hidden;
-        /* animation: animatedBackground 8s linear infinite; */
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        /* background-color: #000; */
-        /* background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"); */
-        min-height: 100%;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .coming-soon {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 60%;
-        padding: 10%;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        text-align: center;
-        font-size: 2rem;
-        font-weight: bold;
-        color: #219ebc;
-        /* text-shadow: 0 0 10px #000; */
-      }
-      h1 {
-        font-size: 2rem;
-        font-weight: bold;
-        /* color: #fff; */
-        /* text-shadow: 0 0 10px #000; */
-      }
-      h2 {
-        font-size: 1.5rem;
-        font-weight: bold;
-        /* color: #fff; */
-        /* text-shadow: 0 0 10px #000; */
-      }
-      button {
-        border-radius: 50px;
-        background: repeat padding-box border-box 0% 0% / auto auto scroll
-          linear-gradient(141deg, #05b1d6 0%, #16697d 100%);
-        width: 193px;
-        height: 49px;
-        border: none;
-        color: #fff;
-        letter-spacing: 0.025em;
-        font-size: 20px;
-        font-family: tahoma, tahoma-w01-regular, tahoma-w02-regular,
-          tahoma-w10-regular, tahoma-w15--regular, tahoma-w99-regular,
-          sans-serif;
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Raleway"
-    />
-  </head>
-  <body>
-    <a href="">
-      <div class="coming-soon">
-        <img src="or.jpeg" />
-      </div>
-    </a>
-  </body>
+    }
+
+    ReactDOM.render(<HackathonSite />, document.getElementById('root'));
+  </script>
+</body>
+
 </html>
